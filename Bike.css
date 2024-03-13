@@ -1,0 +1,91 @@
+body{
+    background: rgba(0, 0, 0, 0.6) url('bike2.jpg') center center fixed;
+    background-size: cover;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0px; 
+    transition: 1s;
+
+}
+.container h1{
+    color: #0b0000;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #080000;
+    font-size: 15px;
+    transition: 1s;
+   
+}
+#imageContainer {
+    text-align: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin: 0 10px; /* Add margin between buttons */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#imageContainer {
+    text-align: center;
+    margin-top: 40px; /* Adjust the top margin as needed */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Add rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin: 0 10px; /* Add margin between buttons */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(252, 20, 140);
+}

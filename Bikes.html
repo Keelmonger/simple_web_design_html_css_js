@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes</title>
+    <link rel="stylesheet" href="Bike.css">
+    <style>
+        #imageContainer {
+            text-align: center;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>THE <br> BIKE SHOP  </h1>   
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">BIKES</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <div id="imageContainer">
+            <img id="sliderImage" src="bmw.jpg" alt="Image 1">
+        </div>
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+
+        <script>
+            // Array of image sources
+            const images = ["bmw.jpg", "ducati.jpg"];
+            let currentIndex = 0;
+
+            // Function to update the displayed image
+            function updateImage() {
+                const imageElement = document.getElementById("sliderImage");
+                imageElement.src = images[currentIndex];
+            }
+
+            // Function to show the next image
+            function nextImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateImage();
+            }
+
+            // Function to show the previous image
+            function prevImage() {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                updateImage();
+            }
+        </script>
+    </div>
+</body>
+</html>

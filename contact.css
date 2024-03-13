@@ -1,0 +1,92 @@
+body{
+    background: rgba(233, 243, 245, 0.6) url('bike.jpg') center center fixed;
+    background-size: cover;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0px; 
+    transition: 1s;
+    justify-content: center;
+
+}
+.container h1{
+    color: #eff5f5;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color:#eff5f5;
+    font-size: 15px;
+    transition: 1s;
+}
+ 
+.navbar ul li a:hover{
+    background-color: rgb(252, 20, 140);
+}
+.contact-info {
+   
+    color: #eff5f5;
+}
+.social-media {
+    padding-top: 100px;
+    padding-left: 20px;
+    
+}
+p{
+    color: #eff5f5;
+    padding-bottom: 20px;
+}
+
+.contact-info a {
+    color: black;
+}
+
+.contact-form {
+    margin-top: 50px; /* Adjust margin as needed */
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+
+.contact-form {
+    margin-top: 50px; /* Adjust margin as needed */
+    text-align: center;
+    max-width: 500px; /* Set a maximum width for the form container */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding to the form container */
+    border: 2px solid #ccc; /* Add border for visual separation */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+.contact-form textarea {
+    height: 100px;
+}
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
